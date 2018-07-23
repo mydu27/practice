@@ -13,7 +13,7 @@ def main():
         ans = int(input('Enter your guess: '))
         if ans == n:
             print('Success! You win! Play it again!')
-            continue
+            main()
         elif ans > n:
             print('Too high.')
         elif ans == 0:
