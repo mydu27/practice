@@ -1,4 +1,4 @@
-# 变量love没有定义
+# 问题是变量love没有定义
 he_loves = 10
 she_loves = -10
 Love = 2
