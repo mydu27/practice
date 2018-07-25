@@ -1,0 +1,5 @@
+10-1-1
+删除后程序可以正确运行，因为虽然global不会创建变量，但在函数are_assertive和are_supportive中，都创建了变量b并给他们赋值
+
+10-1-2
+需要包含global b语句，如果b变成局部变量，main函数中的b就没有定义
