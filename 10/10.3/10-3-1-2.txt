@@ -1,0 +1,6 @@
+10-3-1
+没有global不能正常工作，main函数中的amt会始终为0
+
+
+10-3-1
+没有global不能正常工作，因为romster始终为局部变量，无法影响外部的作用域，decode_roamn里的romstr始终为''
